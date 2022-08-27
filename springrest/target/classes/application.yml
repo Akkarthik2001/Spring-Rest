@@ -1,0 +1,14 @@
+server:
+  port: 8080
+  compression:
+    enabled: true
+spring: 
+  application: 
+    name: TrainingServiceApp
+logging:
+  level: 
+    root: INFO
+    org.springframework.web: ERROR
+    org.springframework.boot: ERROR
+employee:
+  datastore: JSON
